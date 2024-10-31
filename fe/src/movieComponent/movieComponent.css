@@ -1,0 +1,38 @@
+.movies-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.movies-item {
+    width: 180px;
+    text-align: center;
+}
+
+.movies-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movies-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.movies-time {
+    font-size: 14px;
+    color: #868686;
+}
+.movies-item {
+    width: 180px; 
+    text-align: center;
+}
+
+.movies-item img {
+    width: 170px; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    height: 800px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #FFB300; 
+}
+
+.container {
+    background-color: #fff;
+    width: 800px; 
+    height: 500px; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    /* text-align: center; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.MovieUI {
+    font-size: 20px;
+}
+.icon-circle{
+    display: inline-flex; /* Giữ cho span hiển thị cùng dòng với chữ "Movie" */
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%; /* Tạo hình tròn */
+  font-size: 20px;
+  text-align: center;
+  margin-left: 2px; /* Khoảng cách giữa "Movie" và vòng tròn chứa "UI" */
+}
+.content {
+    color: #868686
+}
